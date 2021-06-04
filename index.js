@@ -22,7 +22,6 @@ let employee = {
 };
 employee.getWage()
 //console.log(employee.getWage())
-//Abstraction
 //inheritance
 //polymorphism
 
@@ -60,3 +59,25 @@ function Triangle(radius){
     }
 }
 const another = new Triangle
+
+//objects primitives and reference types
+//let x = {}
+//let x = new Object{}
+//new String()= "", '',``
+//new Boolean()= false true
+//new Number()= 1,2,3
+//functions are objects
+//methods and propertys
+//Triangle.call({}, 1) 
+//Triangle.apply({}, [1,2,3,4])
+//values vs reference types
+//values: Number, String, Boolean, Symbol, Undefined, Null
+//Reference Types: Object, Function, Array
+let obj = {value: 10}
+let plus = 10
+function increment (obj){
+    return obj.value++
+}
+increment(obj)
+console.log(obj)
+//Abstraction
